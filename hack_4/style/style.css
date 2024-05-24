@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+/* Estilos para la sección superior */
+.div-blanco{
+    background-color: white;
+    padding: 30px;
+
+}
+.top-bar{
+    background-color: black;
+    border-radius: 5px;
+    width: 30%;
+    height: 5px;
+}        
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letra-dorada {
+    font-weight: bold;
+    color: #B88940;
+}
+
+/* Estilos para las imágenes de los modelos */
+.model-images {
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.model-image {
+    width: 30%;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.model-image img {
+    width: 100%;
+    height: auto;
+}
+
+.cajas{
+    background-color: #FFBD59;
+    width: 1280px;
+    height: 30px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+
+
+
+/* Estilos para las etiquetas de precios */
+.precios {
+    font-size: 14px;
+    color: #000000;
+    padding: 50px 0;
+}
+
+/* Estilos para la sección inferior */
+.bottom-section {
+    text-align: center;
+    color: #808080;
+    padding: 20px 0;
+}

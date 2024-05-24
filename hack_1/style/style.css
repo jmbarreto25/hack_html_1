@@ -1,6 +1,40 @@
 :root {
     --bg-blue:#93B5C9;
     --bg-wine:#AB2849;
-    
+ }
 
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.caja-azul {
+    background-color: #93B5C9;
+    padding: 50px;
 }
+
+.caja-roja {
+    background-color: #AB2849;
+    padding: 100px;
+}
+
+.cajas{
+    background-color: #AB2849;
+    position: relative;
+    width: 1280px;
+    height: 100px;
+    top: 10px;         
+    left: 400px; 
+    margin-top: 10px;
+}
+
+.final{
+    background-color: #AB2849;
+    position: relative;
+    width: 1620px;
+    height: 100px;
+    top:10px;
+    left: 10px;
+    border: 10px solid white;  
+}        
+

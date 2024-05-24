@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.banner {
+    background-color: #00FF00; /* Green color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+.circle {
+    
+    width: 100px;
+    height: 100px;
+    background-color: #7ED957;
+    border-radius: 50%;
+    border: 2px solid white; /* Green color */
+  }
+
+.text {
+    font-size: 24px;
+  }
